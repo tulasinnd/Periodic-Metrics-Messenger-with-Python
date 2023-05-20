@@ -56,7 +56,7 @@ def send_summary_to_slack(summary,month):
 
 # main function
 if __name__ == '__main__':
-    df=pd.read_csv(r"C:\Users\91939\OneDrive\Desktop\My Placement\Companies Applied\Guvi_Companies\Qure.ai_Data_Engineer\covid-19-state-level-data.csv", index_col=0)
+    df=pd.read_csv(r"covid-19-state-level-data.csv", index_col=0)
     months=[3,4,5,6]
     async def main():
         for month in months:
